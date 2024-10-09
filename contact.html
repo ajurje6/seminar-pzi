@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AJ COMMERCE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+</head>
+<body>
+     <!--NAVIGACIJA-->
+  <section id="header">
+    <h2>AJ COMMERCE</h2>
+ <div>
+   <ul id="navbar">
+     <li><a href="index.html">Home</a></li>
+     <li><a href="shop.html">Shop</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a class="active" href="contact.html">Contact</a></li>
+     <li><i id="shopping-card" class="fas fa-shopping-bag"></i></li>
+   </ul>
+    <!--CART-->
+    <div class="cart">
+      <h2 class="cart-title">Your Cart</h2>
+    
+      <!-- CONTENT  -->
+      <div class="cart-content">
+    
+    
+      </div>
+    
+      <!-- TOTAL   -->
+      <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">$0.00</div>
+      </div>
+      <!-- BUY BUTTON  -->
+      <button type="button" class="btn-buy">Buy Now</button>
+      <!-- CART CLOSE  -->
+      <i class="fas fa-window-close" id="cart-close"></i>
+</div>
+ </div>
+  </section>
+  <section id="contact-details" class="section-p1">
+<div class="details">
+ <h2>VISIT OUR SHOP TODAY</h2>
+<div>
+  <li><i class="fas fa-map-marker-alt"></i></li>
+  <p>Ul. Ruđera Boškovića 32</p>
+  <li><i class="far fa-envelope-open"></i></li>
+  <p>example@gmail.com</p>
+  <li><i class="fas fa-phone-square"></i></li>
+  <p>099 999 999</p>
+</div>
+</div>
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.5688131761317!2d16.46642177599438!3d43.511329871109176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13355e3cbb175f2d%3A0x505534f00924e86!2sFakultet%20elektrotehnike%2C%20strojarstva%20i%20brodogradnje%20u%20Splitu!5e0!3m2!1shr!2shr!4v1704807509270!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+  </section>
+  <section id="contact-main">
+    <form action="">
+    <h1>CONTACT US</h1>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+
+    <button type="submit" class="submit-button">Submit</button>
+  </form>
+  </section>
+  <section id="footer">
+    <div id="footer-box" class="container">
+      <ul id="social-media-list">
+       
+        <li title="Facebook">
+          <a
+            class="social-media-links"
+            href="https://www.facebook.com/"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li title="Instagram">
+          <a
+            class="social-media-links"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li title="Email">
+          <a class="social-media-links" href="mailto:myemail@fesb.hr">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+      <h4>AJ COMMERCE</h4>
+      <p id="copyright">
+        &copy;<em> 2024,All rights reserved</em> <br/>
+        <strong>Antonio Jurjevic</strong>
+      </p>
+    </div>
+  </section>
+ 
+  <script src="scripts/cart.js"></script>
+</body>
+</html>
